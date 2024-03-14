@@ -15,9 +15,9 @@ class SuperBascicFundamentals {
     }
 
     fun scannerExample() {
-        println("\n  Type something here: ")
-        val scanner = Scanner(System.`in`)//in kotlin word 'in' is key word thats why like this
-        val enteredData = scanner.nextLine()
-        println("You wrote: $enteredData")
+//        println("\n  Type something here: ")
+//        val scanner = Scanner(System.`in`)//in kotlin word 'in' is key word thats why like this
+//        val enteredData = scanner.nextLine()
+//        println("You wrote: $enteredData")
     }
 }
