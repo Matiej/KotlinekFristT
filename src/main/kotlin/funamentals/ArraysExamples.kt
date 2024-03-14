@@ -26,7 +26,7 @@ class ArraysExamples {
             intArrayOf(7,8,9)
         )
         var i = multiIntArr[1][2]
-        
+
         println(multiIntArr[0][2])
 
     }
