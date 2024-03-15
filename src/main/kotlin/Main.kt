@@ -1,4 +1,4 @@
-import funamentals.NullNullableOverview
+import funamentals.LoopsExamples
 import funamentals.Primitivo
 
 fun main(args: Array<String>) {
@@ -12,6 +12,10 @@ fun main(args: Array<String>) {
 
     Primitivo().playGroundIntegerTypes()
     var myNumber: Int? = null
-    NullNullableOverview().nonNullForcePlay(myNumber) // nullPointerException exception in purpose. Just to check
+    // nullPointerException exception in purpose. Just to check
+//    NullNullableOverview().nonNullForcePlay(myNumber)
+    LoopsExamples().loopsTrainings()
+    LoopsExamples().whileLoopExamples()
+    LoopsExamples().loopArray(intArrayOf(5, 33, 12, 191, -6))
 
 }
