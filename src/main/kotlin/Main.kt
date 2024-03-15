@@ -1,5 +1,7 @@
+import funamentals.FunctionsPlayGround
 import funamentals.LoopsExamples
 import funamentals.Primitivo
+import funamentals.StringExamplesCases
 
 fun main(args: Array<String>) {
     println("Hello World!")
@@ -17,5 +19,10 @@ fun main(args: Array<String>) {
     LoopsExamples().loopsTrainings()
     LoopsExamples().whileLoopExamples()
     LoopsExamples().loopArray(intArrayOf(5, 33, 12, 191, -6))
+    StringExamplesCases().playGroundForString()
+    println()
+    FunctionsPlayGround().publicOne()
+    println(FunctionsPlayGround().singleExpr(3, 6))
+    println(FunctionsPlayGround().isAdult(18))
 
 }
