@@ -1,6 +1,6 @@
 package assets
 
-open class Vehicle {
+open class VehicleAccessModifiers {
     /*
     open - class is open for inheritance
     Kotlin access modifiers#
@@ -15,6 +15,6 @@ open class Vehicle {
 }
 
 fun main() {
-    var vehicle: Vehicle = Vehicle()
+    var vehicle: VehicleAccessModifiers = VehicleAccessModifiers()
     
 }
