@@ -5,6 +5,6 @@ fun main() {
     empl1.introduce()
 
     var dev1: Programmer = Programmer("Adam", "Skislki", "App development", 2000.1, "java")
-
+    dev1.introduce()
 
 }
