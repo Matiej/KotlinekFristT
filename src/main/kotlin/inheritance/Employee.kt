@@ -7,11 +7,13 @@ open class Employee(
     var salary: Double?
 ) {
 
+    open val FUNCTION: String = "EMPLOYEE"
+
     override fun toString(): String {
-        return "I'm - (name=$name, surnmae=$surnmae, role=$role, salary=$salary)"
+        return " - (name=$name, surnmae=$surnmae, role=$role, salary=$salary)"
     }
 
-    fun introduce() {
-        println(this)
+    open fun introduce() {
+        println(FUNCTION+this)
     }
 }
