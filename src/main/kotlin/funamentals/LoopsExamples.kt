@@ -10,10 +10,10 @@ class LoopsExamples {
         for (i in 0 until 4) {
             println("Element in loop with UNITL key world no: $i")
         }
-        println()
-        for (i in 0..<4) {
-            println("Element in loop with < key world no: $i")
-        }
+//        println()
+//        for (i in 0..<4) {
+//            println("Element in loop with < key world no: $i")
+//        }
 
         println()
         for (i in 0..4 step 2) {
